@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Music Gifs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+</head>
+<body>
+    <div class="title-container">
+        <h1 id="title">Musical Artits Gifs!</h1>
+    </div>
+    <p class="introduction">Click On One Of The Musical Artist Buttons Below Or Create Your Own By Searching For Your Favorite Artists Below.</p>
+    <div class="container">
+        <div id="artist-buttons"></div>
+        <br/>
+        <div class="row gif-row">
+            <div class="col-md-10">
+                <div id="gifs"></div>
+            </div>
+            <div class="col-md-2">
+                <form id="artitst">
+                    <label for="artist-input" class="input-label">Search For Another Band Or Artist Below: </label>
+                    <input type="text" id="artist-input">
+                    <br>
+                    <input id="add-artist" type="submit" vlaue="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer id="sticky"><p>Copyright Giovanny Caquias 2019 &copy</p></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/app.js"></script>
+</body>
+</html>

@@ -56,7 +56,7 @@ $(document).ready(function() {
             
             for (var i = 0; i < results.length; i++) {   
                 var artistDiv = $("<div>");
-                var gifRating = $("<p class='rating'>").text("Rating: " + results[i].rating);
+                var gifRating = $("<p class='rating'>").text("Rating: " + results[i].rating.toUpperCase());
                 var artistImage = $("<img>");
     
                 gifRating.addClass("rating-text")

@@ -40,7 +40,7 @@ $(document).ready(function() {
     
         var artistName = $(this).attr("data-name");
         var artistStr = artistName.split(" ").join("+");
-        var giphyURL = "https://api.giphy.com/v1/gifs/search?q=" + artistStr + "&api_key=dc6zaTOxFJmzC&limit=10";
+        var giphyURL = "https://api.giphy.com/v1/gifs/search?q=" + artistStr + "&api_key=eCiQWQGBNpWpzziGALd34AbSezfF6EAe&limit=10";
     
         $.ajax({
         url: giphyURL,

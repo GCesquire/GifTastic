@@ -30,8 +30,6 @@ $(document).ready(function() {
         $("#artist-input").val("");
     
         renderButtons();
-    
-        console.log(topics);
     });
     
     renderButtons();
@@ -46,9 +44,6 @@ $(document).ready(function() {
         url: giphyURL,
         method: "GET"
         }).done(function(response) {
-            
-            console.log(giphyURL);
-            console.log(response);
     
             results = response.data;
     
@@ -81,12 +76,8 @@ $(document).ready(function() {
         var state = $(this).attr("data-state");
         var position = $(this).attr("data-position");
         position = parseInt(position);
-    
-        console.log(results[position].images.fixed_height.url);
-        console.log(position);
 
         if (state === "still") {
-            console.log("we're here");
             $(this).attr("src", results[position].images.fixed_height.url);
             $(this).attr("data-state", "animate");
         } else {

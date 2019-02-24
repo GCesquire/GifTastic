@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-    var topics = ["The Beatles", "The Rollingstones", "Pink Floyd", "David Bowie", "Radiohead", "Kanye West", "Beyonce", "Kendrick Lamar", "Drake", "Jay-Z"]
+    var topics = ["The Beatles", "Prince", "The Rollingstones", "Drake", "Pink Floyd", "Kendrick Lamar", "David Bowie", "Beyonce", "Radiohead", "Kanye West"]
     var results;
     
     const renderButtons = () => {
